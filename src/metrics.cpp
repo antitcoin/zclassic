@@ -246,7 +246,7 @@ int printInitMessage()
 void ThreadShowMetricsScreen()
 {
     // Make this thread recognisable as the metrics screen thread
-    RenameThread("zcash-metrics-screen");
+    RenameThread("Anti-Trump-Coin-metrics-screen");
 
     // Clear screen
     std::cout << "\e[2J";
@@ -256,7 +256,7 @@ void ThreadShowMetricsScreen()
     std::cout << std::endl;
 
     // Thank you text
-    std::cout << _("Thank you for running a Zclassic node!") << std::endl;
+    std::cout << _("Thank you for running a Anti-Trump-Coin node!") << std::endl;
     std::cout << _("You're helping to strengthen the network and contributing to a social good, all coins are created equal :)") << std::endl;
     std::cout << std::endl;
 
